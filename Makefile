@@ -1,10 +1,21 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: mabarbos <mabarbos@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2024/03/01 15:04:33 by mabarbos          #+#    #+#              #
+#    Updated: 2024/03/01 15:04:33 by mabarbos         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 OBJS_SR			=	server.o
 OBJS_CL			=	client.o
-
 NAME_SR			=	server
 NAME_CL			=	client
-INCS			=	./libft
-INCS_PRT		=	./libft/ft_printf
+INCS			=	./libft/
+INCS_PRT		=	./libft/ft_printf/sources/
 LIB				=	libft.a
 CC				=	gcc
 RM				=	rm -f
